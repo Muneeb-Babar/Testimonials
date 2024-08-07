@@ -1,0 +1,22 @@
+.carousel-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-item-container {
+    display: flex;
+    gap: 20px; /* Adjust spacing between cards as needed */
+  }
+  
+  .carousel-item-container .card {
+    flex: 1;
+    max-width: 45%; /* Ensures two cards fit within the container */
+  }
+  
