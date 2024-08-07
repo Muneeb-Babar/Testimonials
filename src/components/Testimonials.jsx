@@ -10,7 +10,7 @@ function Testimonials() {
        name="John Doe"
        role="CEO, ExampleCorp"
        testimonial="This is the best service I have ever used. Highly recommend!"
-       image="https://via.placeholder.com/80" // Replace with actual image URL
+       image="https://via.placeholder.com/80" 
        rating={5}
         />
       </Carousel.Item>
@@ -19,7 +19,7 @@ function Testimonials() {
       name="John Doe"
       role="CEO, ExampleCorp"
       testimonial="This is the best service I have ever used. Highly recommend!"
-      image="https://via.placeholder.com/80" // Replace with actual image URL
+      image="https://via.placeholder.com/80" 
       rating={4}/>
       </Carousel.Item>
       <Carousel.Item>
@@ -27,7 +27,7 @@ function Testimonials() {
      name="John Doe"
      role="CEO, ExampleCorp"
      testimonial="This is the best service I have ever used. Highly recommend!"
-     image="https://via.placeholder.com/80" // Replace with actual image URL
+     image="https://via.placeholder.com/80" 
      rating={3}/>
       </Carousel.Item>
       <Carousel.Item>
@@ -35,7 +35,7 @@ function Testimonials() {
       name="John Doe"
       role="CEO, ExampleCorp"
       testimonial="This is the best service I have ever used. Highly recommend!"
-      image="https://via.placeholder.com/80" // Replace with actual image URL
+      image="https://via.placeholder.com/80" 
       rating={4}/>
       </Carousel.Item>
       <Carousel.Item>
@@ -43,7 +43,7 @@ function Testimonials() {
      name="John Doe"
      role="CEO, ExampleCorp"
      testimonial="This is the best service I have ever used. Highly recommend!"
-     image="https://via.placeholder.com/80" // Replace with actual image URL
+     image="https://via.placeholder.com/80" 
      rating={3}/>
       </Carousel.Item>
     </Carousel>
