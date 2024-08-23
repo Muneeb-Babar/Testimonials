@@ -26,8 +26,11 @@ export default function ModalForm({ allInputs, heading, btn }) {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+  const[inputValue,setInputvalue]=useState('')
 
   const isMobile = useMediaQuery('(max-width:600px)');
+
+  console.log(inputValue)
 
   return (
     <div>
@@ -56,10 +59,13 @@ export default function ModalForm({ allInputs, heading, btn }) {
             </Typography>
             {allInputs.map((item, index) => (
               <Box component="form" sx={{ p: 2 }} key={index}>
-                <TextField fullWidth label={item.label} type={item.type} />
+                <TextField fullWidth label={item.label} type={item.type} onChange={(e)=>setInputvalue(e.target.value)} />
               </Box>
             ))}
-            <ModalButton btnName={'Submit'} onClick={() => alert('Submit')} />
+            <div style={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
+            <ModalButton btnName={'Submit'} onClick={() => alert('submit')} color={'success'} />
+            <ModalButton btnName={'Close'} onClick={handleClose} color={'error'}/>
+            </div>
           </Box>
         </Fade>
       </Modal>
